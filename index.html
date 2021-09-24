@@ -13,6 +13,76 @@
 </head>
 
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm fixed-top navbar-light" style="background-color: #fceabb">
+    <a class="navbar-brand" href="favorite.html">SOULMATE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="fas fa-home" href="index.html" alt="Home" style="font-size: 2em" data-toggle="tooltip"
+            data-placement="bottom" title="Home: Show All">
+          </a>
+        </li>
+        <li>
+          <i class="fas fa-female" data-toggle="tooltip" data-placement="bottom" title="Women Only"></i>
+        </li>
+        <li>
+          <i class="fas fa-male data-toggle=" tooltip" data-placement="bottom" title="Men Only""></i>
+          </li>
+          <li class=" nav-item active">
+            <a class="fas fa-heart" href="favorite.html" alt="Favorite" style="font-size: 2em" data-toggle="tooltip"
+              data-placement="bottom" title="Favorite: Show Your Love"></a>
+        <li class="love">Love</li>
+        <li class="love-num">0</li>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0" id="search-form">
+        <input class="form-control mr-sm-2" id="search-input" type="search" placeholder=" 🔍  Find your mate"
+          aria-label="Search" />
+        </button>
+      </form>
+    </div>
+  </nav>
+  <!-- Render User List -->
+  <div class="container">
+    <div class="row" id="data-panel"></div>
+  </div>
+  <!-- User Modal -->
+  <div class="modal fade" id="user-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="user-modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="user-modal-body">
+          <div class="row">
+            <div class="col-sm-4" id="user-modal-image">
+              <img src="#" alt="user-poster" class="img-fluid" />
+            </div>
+            <div class="col-sm-8">
+              <p id="user-modal-gender">Gender</p>
+              <p id="user-modal-region">Region</p>
+              <p id="user-modal-birthday">Birthday</p>
+              <p><em id="user-modal-email">This is email.</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
