@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+body {
+  height: 100vh;
+  background: linear-gradient(to top, #70e1f5, #ffd194, #70e1f5);
+  font-family: Kalam;
+}
+
+.fa-home,
+.fa-heart,
+.fa-female,
+.fa-male {
+  color: #e1a60a;
+  margin-top: 3px;
+  transition: transform 0.2s, color 0.2s;
+  text-decoration: none;
+}
+
+.fa-home:hover,
+.fa-heart:hover,
+.fa-female:hover,
+.fa-male:hover {
+  color: #a07607;
+  transform: scale(1.05);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fa-home,
+.fa-heart {
+  margin-right: 7px;
+}
+
+.fa-female,
+.fa-male {
+  font-size: 2em;
+  margin-top: 3px !important;
+  margin-right: 12px;
+}
+
+.love,
+.love-num {
+  font-size: 1em;
+  margin-top: 8px !important;
+  color: #a07607;
+}
+
+.love {
+  margin-right: 4px;
+}
+
+.container {
+  margin-top: 100px !important;
+}
+
+.card {
+  box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card img {
+  margin-top: 25px !important;
+  border: 0px;
+  height: 125px !important;
+  width: 125px !important;
+  border-radius: 100%;
+}
+
+.card img:hover {
+  cursor: pointer;
+  box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-show-user {
+  color: #6ccfdd;
+  border: 0px;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.btn-show-user:hover {
+  color: #2ba7b8;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.btn-add-favorite {
+  margin-left: 35px;
+  color: #6ccfdd;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.btn-add-favorite:hover {
+  color: #b34343;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.love-active {
+  color: #e25656;
+}
+
+.btn-delete-user {
+  margin-left: 35px;
+  color: #e25656;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.btn-delete-user:hover {
+  color: #b34343;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.btnbox {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 10px;
+}
+
+#user-modal-image img {
+  border-radius: 100%;
+}
+
+.pagination > li > a {
+  background-color: #fffcee;
+  color: #a07607;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+  color: #574104;
+  background-color: rgb(238, 215, 113);
+}
