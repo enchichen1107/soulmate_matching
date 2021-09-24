@@ -1,6 +1,7 @@
 # Soulmate Matching
- 讓你、妳找到靈魂另一半的情人配對網站❤️
- Check it out!!👉 https://enchichen1107.github.io/soulmate_matching/
+ - 讓你、妳找到靈魂另一半的情人配對網站❤️
+ - Check it out!!👉 https://enchichen1107.github.io/soulmate_matching/
+<img src="https://github.com/enchichen1107/url_shortener/blob/main/urldemo.png" width=350>
 
  ## Features
  1. 可以切換不同瀏覽模式(男、女、favorite)
